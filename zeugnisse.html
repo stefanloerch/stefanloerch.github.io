@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="catalog.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script type="module" src="https://cdn.skypack.dev/pdfjs-viewer-element"></script>
     <link rel="stylesheet" href="zeugnisse.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
                 <li><a href="home.html"><i class="fas fa-home"></i> Start</a></li>
                 <li><a href="catalog.html"><i class="fas fa-book-open"></i> Lebenslauf</a></li>
                 <li><a href="contact.html"><i class="fas fa-envelope"></i> Kontakt</a></li>
-                <li><a href="zeugnisse.html"><i class="fas fa-envelope"></i> Zeugnisse</a></li>
+                <li><a href="zeugnisse.html"><i class="fas fa-book-open"></i> Zeugnisse</a></li>
             </ul>
         </nav>
     </header>
@@ -25,13 +25,13 @@
         <section class="Kontakt">
 
     
-
-<div class="embed-responsive embed-responsive-1by1">
-  <iframe class="embed-responsive-item" src="ZertifikatiseF.pdf" type="application/pdf" allowfullscreen></iframe>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <pdfjs-viewer-element
+            id="viewer"
+            src="/ZertifikatiseF.pdf"
+            viewer-path="/pdfjs-4.0.379-dist"
+            style="height: 600px">
+          </pdfjs-viewer-element>
+          
 
              </section>
     </main>
