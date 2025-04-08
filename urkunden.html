@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeugnisse</title>
+    <link rel="stylesheet" href="catalog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script type="module" src="https://cdn.skypack.dev/pdfjs-viewer-element"></script>
+    <link rel="stylesheet" href="zeugnisse.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html"><i class="fas fa-home"></i> Start</a></li>
+                <li><a href="catalog.html"><i class="fas fa-book-open"></i> Lebenslauf</a></li>
+                <li><a href="contacts.html"><i class="fas fa-envelope"></i> Kontakt</a></li>
+                <li><a href="zeugnisse.html"><i class="fas fa-book-open"></i> Zeugnisse</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="Kontakt">
+
+    
+            <pdfjs-viewer-element
+            id="viewer"
+            src="/ZertifikatiseF.pdf"
+            viewer-path="/pdfjs-4.0.379-dist"
+            style="height: 600px">
+          </pdfjs-viewer-element>
+          
+
+             </section>
+    </main>
+    <footer>
+        <p>&copy; 2025</p>
+    </footer>
+</body>
+</html>
