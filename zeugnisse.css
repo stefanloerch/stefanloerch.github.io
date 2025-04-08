@@ -1,0 +1,13 @@
+ .contact-info {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
