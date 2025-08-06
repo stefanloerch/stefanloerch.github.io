@@ -23,8 +23,8 @@
     <main>
         <section class="Kontakt">
             <h2></h2>
-			<p><i class="fas fa-envelope"></i>  https://www.facebook.com/stefan.lorch.90/</p>
-  
+			<p><i class="fas fa-envelope"></i> </p>
+  <li><a href=" https://www.facebook.com/stefan.lorch.90/"><i class="fas fa-home"></i> Facebook</a></li>
   <p><i class="fas fa-envelope"></i>  https://x.com/stefanloerch</p>
   
             <p><i class="fas fa-envelope"></i> Email: mail@stefanloerch.com</p>
